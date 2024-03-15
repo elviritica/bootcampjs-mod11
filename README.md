@@ -19,4 +19,9 @@ Esta parte del laboratorio se centra en la validación de los números de cuenta
 
 ## Apartado B: Extracción de enlaces a imágenes de un contenido HTML
 
+Para ver las imágenes de esta sección:
+- Navegar a servidor-imagenes
+- Instalar las dependencias con `npm install`
+- Arrancar el servidor con `npm start`
+
 En esta sección se desarrolla una aplicación que extrae enlaces a imágenes de un contenido HTML proporcionado. Se utiliza una expresión regular para buscar etiquetas `<img>` y extraer los atributos `src`, que contienen las URL de las imágenes. Posteriormente, estas URL se muestran en pantalla.
