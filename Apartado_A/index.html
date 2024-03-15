@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Extraer info IBAN</h1>
+      <p>Introduzca el IBAN</p>
+      <div class="input">
+        <input type="text" id="iban" />
+        <button id="extraer">Extraer</button>
+      </div>
+      <div class="contenedor-respuesta" id="contenedor-respuesta">
+        <ul>
+          <li class="respuesta" id="formado">¿Está bien formado?:</li>
+          <li class="respuesta" id="valido">¿Es válido?</li>
+          <li class="respuesta" id="banco">Banco:</li>
+          <li class="respuesta" id="sucursal">Sucursal:</li>
+          <li class="respuesta" id="digito-control">Dígito de control:</li>
+          <li class="respuesta" id="numero-cuenta">Número de cuenta:</li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
