@@ -1,6 +1,6 @@
 import "./style.css";
-import { handleClickExtraer } from "./validacionIBAN.ui";
+import { loadApp } from "./validacionIBAN.ui";
 
 document.addEventListener("DOMContentLoaded", () => {
-  handleClickExtraer();
+  loadApp();
 });
